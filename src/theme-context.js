@@ -13,5 +13,5 @@ export const themes = {
     }
 }
 
-const ThemeContext = createContext(themes.light);
+const ThemeContext = createContext(themes);
 export default ThemeContext;

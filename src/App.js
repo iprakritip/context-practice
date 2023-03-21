@@ -4,7 +4,7 @@ import ThemeContext, { themes } from './theme-context'
 
 const App = () => {
   return (
-    <ThemeContext.Provider value={themes.dark}>
+    <ThemeContext.Provider value={themes.light}>
       <Layout />
     </ThemeContext.Provider>
   )
